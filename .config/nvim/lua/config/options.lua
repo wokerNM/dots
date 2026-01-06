@@ -1,4 +1,4 @@
-vim.cmd("colorscheme ashen")
+vim.cmd("colorscheme cyberpunk")
 vim.o.clipboard = "unnamedplus"
 
 vim.o.number = true
