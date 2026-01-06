@@ -1,3 +1,6 @@
 return {
-	"thedenisnikulin/vim-cyberpunk"
+	"samueljoli/cyberpunk.nvim",
+	opts = {
+		theme = 'dark'
+	},
 }
