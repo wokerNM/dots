@@ -1,6 +1,13 @@
 return {
-	"samueljoli/cyberpunk.nvim",
+	"DonJulve/NeoCyberVim",
 	opts = {
-		theme = 'dark'
+		transparent = true,
+		italics = {
+			comments = true,
+			keywords = true,
+			functions = true,
+			strings = true,
+			variables = true,
+		},
 	},
 }

@@ -21,10 +21,10 @@ require("lazy").setup({
 	spec = {
 		{ import = "plugins" },
 	},
-	install = { colorscheme = { "cyberpunk" } },
+	install = { colorscheme = { "" } },
 	checker = { enabled = true },
 })
 
-require("config.options")
 require("config.keymaps")
 vim.cmd("ShowkeysToggle")
+require("config.options")
