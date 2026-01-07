@@ -11,3 +11,4 @@ vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 vim.o.cursorline = true
 
 vim.o.confirm = true
+vim.cmd("colorscheme NeoCyberVim-dark")
